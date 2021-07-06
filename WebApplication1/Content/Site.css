@@ -124,7 +124,28 @@ a {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.pls {
+    padding-left: 15px !important;
+}
 
+.pts {
+    padding-top: 15px !important;
+}
+
+.pbm {
+    padding-bottom: 20px !important;
+}
+
+.prm {
+    padding-right: 20px !important;
+}
+.arrange {
+    display: table;
+    min-width: 100%;
+    table-layout: auto;
+    padding: 0;
+    margin: 0;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
