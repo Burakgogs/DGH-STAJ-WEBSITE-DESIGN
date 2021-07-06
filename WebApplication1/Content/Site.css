@@ -32,6 +32,12 @@ body {
     padding-left: 15px;
     padding-right: 50px;
 }
+.topleft {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input,
