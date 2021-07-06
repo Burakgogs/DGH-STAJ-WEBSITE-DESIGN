@@ -23,8 +23,14 @@ body {
     position: relative;
     left: 200px;
 }
-   
-   
+.hsg-footer__layout {
+    box-sizing: content-box;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0;
+    padding: 0;
+}
 .symbol-xxl {
     font-size: 1.75rem !important;
 }
@@ -168,7 +174,8 @@ a {
     .jumbotron {
         margin-top: 20px;
     }
-
+   
+   
     .body-content {
         padding: 0;
     }
