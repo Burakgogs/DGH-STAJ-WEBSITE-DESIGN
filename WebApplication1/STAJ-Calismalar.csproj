@@ -133,6 +133,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Controllers\menu.png" />
     <Content Include="Controllers\TasarlananSayfa.html" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
