@@ -13,15 +13,26 @@ body {
     border-bottom: 1px solid #D7DBDD;
   
 }
+.logobaslik {
+    padding: 15px;
+    position: relative;
+    left: 180px;
+}
+.h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+   
+   
+}
 .baslik {
     color: #ec2c22;
    
 }
 .deneme {
   
-    padding: 20px;
+    padding: 15px;
     position: relative;
-    left: 200px;
+    left: 180px;
 }
 .hsg-footer__layout {
     box-sizing: content-box;
@@ -35,8 +46,12 @@ body {
     font-size: 1.75rem !important;
 }
 .div1 {
-   
-    border: 1px solid blue;
+    border: 0.5px solid gray;
+    background-color: #E5E4F0;
+}
+.div2{
+    border:0.5px solid black;
+    background-color:white;
 }
 .tab {
     cursor: pointer;
@@ -45,7 +60,46 @@ body {
     font-size: 16px;
     border-bottom: 3px solid transparent;
 }
+.kampanyabuton {
+    display: table-cell;
+    vertical-align: top;
+    padding: 8px;
+}
+.konumbuton {
+   position:center;
+}
+.mtxs {
+    margin-top: 10px ;
+}
 
+.mlxxl {
+    margin-top: 10px;
+    margin-left: 350px ;
+}
+.mlxxl2 {
+    margin-top: 5px;
+    margin-left: 350px;
+}
+.pas {
+    padding: 15px !important;
+}
+
+.bg-brighter {
+    background-color: #fff !important;
+}
+
+.box-basic {
+    border-color: #dbd9db;
+}
+
+.box {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 10px;
+}
     .tab.is-tab-selected {
         border-bottom-color: red;
     }
@@ -162,12 +216,90 @@ a {
 .prm {
     padding-right: 20px !important;
 }
+.ortalama{
+
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
 .arrange {
     display: table;
     min-width: 100%;
     table-layout: auto;
     padding: 0;
     margin: 0;
+}
+.container {
+   
+    width: 650px
+}
+
+.addtxt {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+    width: 350px;
+    background-color: #e5e8ed;
+    font-weight: 500
+}
+
+.form-control: focus {
+    color: #000
+}
+
+.second {
+    width: 350px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #aaaaaa
+}
+
+.text1 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #56575b
+}
+
+.text2 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 6px;
+    color: #56575b
+}
+
+.text3 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 4px;
+    color: #828386
+}
+
+.text3o {
+    color: #00a5f4
+}
+
+.text4 {
+    font-size: 13px;
+    font-weight: 500;
+    color: #828386
+}
+
+.text4i {
+    color: #00a5f4
+}
+
+.text4o {
+    color: white
+}
+
+.thumbup {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 5px
+}
+
+.thumbupo {
+    color: #17a2b8
 }
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
