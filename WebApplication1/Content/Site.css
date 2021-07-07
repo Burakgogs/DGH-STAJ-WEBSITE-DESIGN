@@ -60,7 +60,7 @@ body {
 .div3 {
     border: 0.5px solid black;
     background-color: #ebf0ed;
-    height: fit-content;
+  
 }
 .tab {
     cursor: pointer;
@@ -155,17 +155,6 @@ textarea {
    
     grid-template-rows: 400px;
     
-}
-.column-left.sync-col {
- 
-  
-}
-.column-center.forms-sfdc-col {
-  
-  
-}
-.column-right.docs-sfdc-col {
-  
 }
 a {
     background-color: transparent;
@@ -287,8 +276,12 @@ a {
 }
 .mts {
     margin-top: 15px;
+  
 }
-
+.ort {
+    position: relative;
+    margin-left: 180px;
+}
 .row {
     margin-left: -10px;
     margin-right: -10px;
@@ -304,4 +297,31 @@ a {
     .body-content {
         padding: 0;
     }
+}
+
+
+
+
+element.style {
+}
+
+#footer {
+    background: #007b5e !important;
+}
+
+section {
+    padding: 60px 0;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+section {
+    display: block;
 }
