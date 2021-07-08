@@ -7,7 +7,15 @@
     display: flex; /* Kutu türü  */
     border-bottom: 1px solid #D7DBDD; /*Alt kenar özellikleri */
 }
+.sag{
 
+    float:right;
+    width:1070px;
+}
+.sol {
+    float: left;
+    margin-left: 520px;
+}
 .logobaslik {
     padding: 15px;/*Boşluk*/
     position: relative;/*Normal pozisyonu*/
@@ -79,7 +87,16 @@
     border: 0.5px solid black;
     background-color: #ebf0ed;
 }
-
+.div4 {
+    border: 0.5px solid black;
+    background-color: #f2f2f2;
+}
+.flex-embed-cover-image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
 /*Konum ayarlama*/
 .mtxs {
     margin-top: 10px;
@@ -213,7 +230,11 @@ a {
 .container {
     width: 650px
 }
-
+.yarim {
+    padding-top: 20px;
+    width: 400px;
+    height: auto;
+}
 .duzen {
     padding-top: 20px;
     width: 400px;
