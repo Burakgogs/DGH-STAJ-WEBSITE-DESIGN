@@ -2,41 +2,37 @@
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
+  /* Sitenin seçenekleri */
 .tabs {
-    /**
-   * Setting display to flex makes this container lay
-   * out its children using flexbox, the exact same
-   * as in the above "Stepper input" example.
-   */
-    display: flex;
-    border-bottom: 1px solid #D7DBDD;
+    display: flex; /* Kutu türü  */
+    border-bottom: 1px solid #D7DBDD; /*Alt kenar özellikleri */
 }
 
 .logobaslik {
-    padding: 15px;
-    position: relative;
-    left: 180px;
+    padding: 15px;/*Boşluk*/
+    position: relative;/*Normal pozisyonu*/
+    left: 180px;/*Sayfanın solundan boşluk*/
 }
 
-.h1 {
+.h1 {/* Yazı */
     font-size: 2.5em;
     font-weight: bold;
 }
 
-.baslik {
+.baslik {/*Sitenin başlığı */
     color: #ec2c22;
     font-weight: normal;
     font-style: normal;
     font-size: 1.75rem !important;
 }
 
-.deneme {
+.deneme {/*Sayfadaki yazıların ortalanması*/
     padding: 15px;
     position: relative;
-    left: 180px;
-}
-
+    left: 500px;
+  
+1}
+/*
 .hsg-footer__layout {
     box-sizing: content-box;
     max-width: 1080px;
@@ -44,14 +40,33 @@
     margin-right: auto;
     padding: 0 0;
     padding: 0;
-}
-
+}*/
+/* Change.org yazı stili*/
 .symbol-xxl {
     font-size: 1.75rem !important;
 }
+/*Navbar tab*/
+.tab {
+    cursor: pointer; /*Alt alta yazıyor*/
+    padding: 5px 15px;
+    color: black;
+    font-size: 16px;
+    border-bottom: 3px solid transparent; /*alt kenar özelliklerinin belirtilmesi i*/
+}
+/*buton özellikleri*/
+.kampanyabuton {
+    display: table-cell;
+    vertical-align: top;
+    padding: 8px;
+}
+/*
+.konumbuton {
+    position: center;
+}*/
 
+/*Kutucukları oluştu*/
 .div1 {
-    border: 0.5px solid gray;
+    border: 0.5px solid gray; /*Kutunun kenarı*/
     background-color: #E5E4F0;
 }
 
@@ -65,24 +80,7 @@
     background-color: #ebf0ed;
 }
 
-.tab {
-    cursor: pointer;
-    padding: 5px 15px;
-    color: black;
-    font-size: 16px;
-    border-bottom: 3px solid transparent;
-}
-
-.kampanyabuton {
-    display: table-cell;
-    vertical-align: top;
-    padding: 8px;
-}
-
-.konumbuton {
-    position: center;
-}
-
+/*Konum ayarlama*/
 .mtxs {
     margin-top: 10px;
 }
@@ -98,11 +96,11 @@
 }
 
 .pas {
-    padding: 15px !important;
+    padding: 15px;
 }
 
 .bg-brighter {
-    background-color: #fff !important;
+    background-color: #fff ;
 }
 
 .box-basic {
@@ -117,16 +115,16 @@
     margin-bottom: 1.5em;
     padding: 10px;
 }
-
+/*Seçilen eleman*/
 .tab.is-tab-selected {
     border-bottom-color: red;
 }
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
+
+/*
 .body-content {
     padding-left: 15px;
     padding-right: 50px;
-}
+}*/
 
 .topleft {
     position: absolute;
@@ -135,13 +133,13 @@
     font-size: 18px;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
+
 input,
 select,
 textarea {
     max-width: 280px;
 }
-
+/*Alt kısımdaki kutular*/
 .kutu {
     width: 100px;
     height: 100px;
@@ -295,7 +293,7 @@ a {
 
 .ort {
     position: relative;
-    margin-left: 180px;
+  
 }
 
 .row {
@@ -304,7 +302,6 @@ a {
 }
 
 
-/* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
         margin-top: 20px;
@@ -322,8 +319,9 @@ a {
 element.style {
 }
 
+/* Footer */
 #footer {
-    background: #007b5e !important;
+    background: #007b5e;
 }
 
 section {
@@ -343,7 +341,7 @@ section {
     display: block;
 }
 
-/* Footer */
+
 footer {
     background: #d9dbda;
         padding: 0px;
