@@ -43,7 +43,7 @@
 }*/
 /* Change.org yazı stili*/
 .symbol-xxl {
-    font-size: 1.75rem !important;
+    font-size: 1.75rem ;
 }
 /*Navbar tab*/
 .tab {
@@ -119,13 +119,19 @@
 .tab.is-tab-selected {
     border-bottom-color: red;
 }
+.tıklama {
+   color: #ec2c22;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
+}
 /*
 .body-content {
     padding-left: 15px;
     padding-right: 50px;
 }*/
-
+/*Sol üste sabitleme*/
 .topleft {
     position: absolute;
     top: 8px;
@@ -155,14 +161,10 @@ textarea {
 }
 
 .product-list-grid {
-    display: -ms-grid;
     display: grid;
-    grid-auto-columns: 1fr;
     grid-column-gap: 40px;
-    grid-row-gap: 0px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 400px;
-}
+   }
 
 a {
     background-color: transparent;
@@ -314,8 +316,6 @@ a {
 }
 
 
-
-
 element.style {
 }
 
@@ -363,4 +363,39 @@ i {
 
 .form-control.shadow-0:focus {
     box-shadow: none;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.me-auto {
+    margin-right: auto !important;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
