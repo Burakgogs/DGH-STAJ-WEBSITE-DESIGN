@@ -542,3 +542,23 @@ a {
 .symbol-xxl {
     font-size: 1.75rem !important;
 }
+.arrange {
+    display: table;
+    min-width: 100%;
+    table-layout: auto;
+    padding: 0;
+    margin: 0;
+}
+.renk {
+    background-color:#f6f4f6  !important;
+}
+.arrange-fit, .arrange-fill {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0;
+}
+.sagkolon{
+ width: 60%;
+    float: right;
+  
+}
