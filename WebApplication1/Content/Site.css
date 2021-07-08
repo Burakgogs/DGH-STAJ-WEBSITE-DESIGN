@@ -303,6 +303,7 @@ a {
     margin-right: -10px;
 }
 
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
@@ -340,4 +341,13 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 user agent stylesheet
 section {
     display: block;
+}
+
+/* Footer */
+footer{
+    background:#444;
+    padding:20px;
+}
+.copy {
+    padding: 10px;
 }
