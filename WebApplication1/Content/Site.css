@@ -2,13 +2,12 @@
     padding-top: 10px;
     padding-bottom: 20px;
 }
-  /* Sitenin seçenekleri */
-.tabs {
+  
+.tabs {/* Sitenin seçenekleri */
     display: flex; /* Kutu türü  */
     border-bottom: 1px solid #D7DBDD; /*Alt kenar özellikleri */
 }
 .sag{
-
     float:right;
     width:1070px;
 }
@@ -21,68 +20,41 @@
     position: relative;/*Normal pozisyonu*/
     left: 180px;/*Sayfanın solundan boşluk*/
 }
-
 .h1 {/* Yazı */
     font-size: 2.5em;
     font-weight: bold;
 }
-
 .baslik {/*Sitenin başlığı */
     color: #ec2c22;
     font-weight: normal;
     font-style: normal;
     font-size: 1.75rem !important;
 }
-
 .deneme {/*Sayfadaki yazıların ortalanması*/
     padding: 15px;
     position: relative;
     left: 500px;
-  
-1}
-/*
-.hsg-footer__layout {
-    box-sizing: content-box;
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 0;
-    padding: 0;
-}*/
-/* Change.org yazı stili*/
-.symbol-xxl {
+}
+.symbol-xxl {/* Change.org yazı stili*/
     font-size: 1.75rem ;
 }
-/*Navbar tab*/
-.tab {
+.tab {/*Navbar tab*/
     cursor: pointer; /*Alt alta yazıyor*/
     padding: 5px 15px;
     color: red;
     font-size: 16px;
     border-bottom: 3px solid #010002; /*alt kenar özelliklerinin belirtilmesi i*/
 }
-/*buton özellikleri*/
-.kampanyabuton {
+.kampanyabuton {/*buton özellikleri*/
     display: table-cell;
     vertical-align: top;
     padding: 8px;
 }
-/*
-.konumbuton {
-    position: center;
-}*/
-
 /*Kutucukları oluştu*/
-.div1 {
-    border: 0.5px solid gray; /*Kutunun kenarı*/
-    background-color: #E5E4F0;
-}
-
 .div2 {
     border: 0.5px solid black;
     background-color: white;
 }
-
 .div3 {
     border: 0.5px solid black;
     background-color: #ebf0ed;
@@ -91,39 +63,15 @@
     border: 0.5px solid black;
     background-color: #f2f2f2;
 }
-.flex-embed-cover-image {
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-}
-/*Konum ayarlama*/
-.mtxs {
-    margin-top: 10px;
-}
-
-.mlxxl {
-    margin-top: 10px;
-    margin-left: 350px;
-}
-
-.mlxxl2 {
-    margin-top: 5px;
-    margin-left: 350px;
-}
-
-.pas {
+.pas {/*Konum ayarlama*/
     padding: 15px;
 }
-
 .bg-brighter {
     background-color: #fff ;
 }
-
 .box-basic {
     border-color: #dbd9db;
 }
-
 .box {
     position: relative;
     border-radius: 5px;
@@ -132,8 +80,7 @@
     margin-bottom: 1.5em;
     padding: 10px;
 }
-/*Seçilen eleman*/
-.tab.is-tab-selected {
+.tab.is-tab-selected {/*Seçilen eleman*/
     border-bottom-color: red;
 }
 .tıklama {
@@ -142,12 +89,6 @@
     cursor: pointer;
 }
 
-}
-/*
-.body-content {
-    padding-left: 15px;
-    padding-right: 50px;
-}*/
 /*Sol üste sabitleme*/
 .topleft {
     position: absolute;
@@ -155,15 +96,13 @@
     right: 16px;
     font-size: 18px;
 }
-
-
 input,
 select,
 textarea {
     max-width: 280px;
 }
-/*Alt kısımdaki kutular*/
-.kutu {
+
+.kutu {/*Alt kısımdaki kutular*/
     width: 100px;
     height: 100px;
     line-height: 100px;
@@ -172,17 +111,14 @@ textarea {
     margin: 5px;
     float: left;
 }
-
 .arkaplan {
     background-color: antiquewhite;
 }
-
 .product-list-grid {
     display: grid;
     grid-column-gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
    }
-
 a {
     background-color: transparent;
     font-family: Rubik,sans-serif;
@@ -191,42 +127,15 @@ a {
     font-weight: 600;
     text-decoration: none;
 }
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
-.pls {
-    padding-left: 15px !important;
-}
-
-.pts {
-    padding-top: 15px !important;
-}
-
-.pbm {
-    padding-bottom: 20px !important;
-}
-
-.prm {
-    padding-right: 20px !important;
-}
-
 .ortalama {
     margin-left: 0 auto;
     margin-right: 0 auto;
 }
-
-.arrange {
-    display: table;
-    min-width: 100%;
-    table-layout: auto;
-    padding: 0;
-    margin: 0;
-}
-
 .container {
     width: 650px
 }
@@ -240,7 +149,6 @@ a {
     width: 400px;
     height: auto;
 }
-
 .addtxt {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -250,81 +158,65 @@ a {
     background-color: #e5e8ed;
     font-weight: 500
 }
-
 .form-control: focus {
     color: #000
 }
-
 .second {
     width: 350px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 10px 10px 5px #aaaaaa
 }
-
 .text1 {
     font-size: 13px;
     font-weight: 500;
     color: #56575b
 }
-
 .text2 {
     font-size: 13px;
     font-weight: 500;
     margin-left: 6px;
     color: #56575b
 }
-
 .text3 {
     font-size: 13px;
     font-weight: 500;
     margin-right: 4px;
     color: #828386
 }
-
 .text3o {
     color: #00a5f4
 }
-
 .text4 {
     font-size: 13px;
     font-weight: 500;
     color: #828386
 }
-
 .text4i {
     color: #00a5f4
 }
-
 .text4o {
     color: white
 }
-
 .thumbup {
     font-size: 13px;
     font-weight: 500;
     margin-right: 5px
 }
-
 .thumbupo {
     color: #17a2b8
 }
-
 .mts {
     margin-top: 15px;
 }
-
 .ort {
     position: relative;
   
 }
-
 .row {
     margin-left: -10px;
     margin-right: -10px;
 }
-
-
 @media screen and (min-width: 768px) {
     .jumbotron {
         margin-top: 20px;
@@ -335,53 +227,37 @@ a {
         padding: 0;
     }
 }
-
-
-element.style {
-}
-
-/* Footer */
-#footer {
+#footer {/* Footer */
     background: #007b5e;
 }
-
 section {
     padding: 60px 0;
 }
-
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
-
 *, ::after, ::before {
     box-sizing: border-box;
 }
-
 user agent stylesheet
 section {
     display: block;
 }
-
-
 footer {
     background: #d9dbda;
         padding: 0px;
 }
-
 #button-addon1 {
     color: #ffc371;
 }
-
 i {
     color: #ffc371;
 }
-
 .form-control::placeholder {
     font-size: 0.95rem;
     color: #aaa;
     font-style: italic;
 }
-
 .form-control.shadow-0:focus {
     box-shadow: none;
 }
@@ -389,7 +265,6 @@ i {
     padding-right: 0;
     padding-left: 0;
 }
-
 .nav-link {
     display: block;
     padding: .5rem 1rem;
@@ -397,22 +272,18 @@ i {
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-
 .dropdown-toggle {
     white-space: nowrap;
 }
-
 .topleft {
     position: absolute;
     top: 8px;
     right: 16px;
     font-size: 18px;
 }
-
 .me-auto {
     margin-right: auto !important;
 }
-
 .navbar-nav {
     display: flex;
     flex-direction: column;
@@ -425,7 +296,6 @@ i {
     vertical-align: middle;
     display: inline-block;
 }
-
 .mrm {
     margin-right: 20px !important;
 }
@@ -437,38 +307,20 @@ i {
         width: 960px;
     }
 }
-.arrange {
-    display: table;
-    min-width: 100%;
-    table-layout: auto;
-    padding: 0;
-    margin: 0;
-}
 .arrange-middle > .arrange-fit, .arrange-middle > .arrange-fill {
     vertical-align: middle;
 }
-
 .arrange-fill {
     width: 100%;
 }
-
 .arrange-fit, .arrange-fill {
     display: table-cell;
     vertical-align: top;
     padding: 0;
 }
-ol, ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-.mrs {
-    margin-right: 15px !important;
-}
 .type-branded {
     color: #ec2c22 !important;
 }
-
 .symbol-xxl {
     font-size: 1.75rem !important;
 }
@@ -477,7 +329,6 @@ ol, ul {
     vertical-align: middle;
     display: inline-block;
 }
-
 .mrm {
     margin-right: 20px !important;
 }
@@ -510,7 +361,6 @@ ol, ul {
     vertical-align: middle;
     display: inline-block;
 }
-
 .mrs {
     margin-right: 15px !important;
 }
@@ -519,26 +369,19 @@ eader .header-height {
     vertical-align: middle;
     line-height: 55px;
 }
-
 .link-stealth {
     color: inherit;
     text-decoration: none;
 }
-
 a, .link {
     color: #ec2c22;
     text-decoration: underline;
     cursor: pointer;
 }
-
 a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
-.type-branded {
-    color: #ec2c22 !important;
-}
-
 .symbol-xxl {
     font-size: 1.75rem !important;
 }
@@ -551,11 +394,6 @@ a {
 }
 .renk {
     background-color:#f6f4f6  !important;
-}
-.arrange-fit, .arrange-fill {
-    display: table-cell;
-    vertical-align: top;
-    padding: 0;
 }
 .sagkolon{
  width: 60%;
