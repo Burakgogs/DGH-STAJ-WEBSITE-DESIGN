@@ -400,3 +400,35 @@ a {
     float: right;
   
 }
+.mtn {
+    margin-top: 0 !important;
+}
+
+
+.progress {
+    width: 900%;
+    height: 10px;
+}
+
+.progress-wrap {
+    background: #f80;
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+
+}
+    .progress-bar
+
+{
+    background: #ddd;
+    left: 50;
+    position: absolute;
+    top: 50;
+}
+.btn-outline {
+    border-color: #ec2c22;
+    background: #fff;
+    color: #ec2c22;
+}
+
