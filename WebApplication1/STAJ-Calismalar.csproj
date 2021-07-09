@@ -138,6 +138,7 @@
     <Content Include="Controllers\kalem.png" />
     <Content Include="Controllers\menu.png" />
     <Content Include="Controllers\bayrak.png" />
+    <Content Include="Controllers\search.png" />
     <Content Include="Controllers\TasarlananSayfa.html" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />

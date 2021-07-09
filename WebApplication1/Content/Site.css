@@ -392,7 +392,8 @@ a {
     margin: 0;
 }
 .renk {
-    background-color:#f6f4f6  !important;
+    background-color: #f6f4f6 !important;
+    width: 517px;
 }
 .sagkolon{
  width: 60%;
@@ -432,10 +433,20 @@ a {
 }
 .divboyut {
     height: 133px;
-    margin-top: auto;
+   
+    margin-top: 20px;
 }
 .buttonrenk {
     color: #000000;
     border-color: #7c7f84;
-    background-color:white;
+    background-color: white;
+    margin-top: 19px;
+}
+.cardbody {
+    flex: 1 1 auto;
+    padding: -1rem 1rem;
+    width: 304px;
+}
+.aramabutonu{
+    left:50px;
 }
