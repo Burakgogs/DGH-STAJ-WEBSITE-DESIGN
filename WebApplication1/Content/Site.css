@@ -38,12 +38,12 @@
 .symbol-xxl {/* Change.org yazı stili*/
     font-size: 1.75rem ;
 }
-.tab {/*Navbar tab*/
+.tab { /*Navbar tab*/
     cursor: pointer; /*Alt alta yazıyor*/
     padding: 5px 15px;
-    color: red;
+    color: #212529;
     font-size: 16px;
-    border-bottom: 3px solid #010002; /*alt kenar özelliklerinin belirtilmesi i*/
+    border-bottom: 1px solid #D7DBDD; /*alt kenar özelliklerinin belirtilmesi i*/
 }
 .kampanyabuton {/*buton özellikleri*/
     display: table-cell;
@@ -60,7 +60,7 @@
     background-color: #ebf0ed;
 }
 .div4 {
-    border: 0.5px solid black;
+  
     background-color: #f2f2f2;
 }
 .pas {/*Konum ayarlama*/
@@ -80,8 +80,10 @@
     margin-bottom: 1.5em;
     padding: 10px;
 }
-.tab.is-tab-selected {/*Seçilen eleman*/
+.tab.is-tab-selected { /*Seçilen eleman*/
+
     border-bottom-color: red;
+    color: red;
 }
 .tıklama {
    color: #ec2c22;
@@ -339,7 +341,7 @@ i {
     padding-left: 267px;
     margin-bottom: 0;
     list-style: none;
-    margin-left: 177px;
+    margin-left: 245px;
 }
 .list-inline > li:first-child {
     margin-left: 0;
@@ -476,4 +478,8 @@ a:hover {
 }
 .butonkonum {
     margin-left: 45px;
+}
+.mvn {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
