@@ -5,7 +5,7 @@
   
 .tabs {/* Sitenin seçenekleri */
     display: flex; /* Kutu türü  */
-    border-bottom: 1px solid #D7DBDD; /*Alt kenar özellikleri */
+    /*Alt kenar özellikleri */
 }
 .sag{
     float:right;
@@ -439,8 +439,8 @@ a {
     padding: -1rem 1rem;
     width: 304px;
 }
-.aramabutonu{
-    left:50px;
+.aramabutonu {
+    margin-left: 170px;
 }
 .icerik {
     margin: 50px auto 0 auto;
