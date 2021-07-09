@@ -121,9 +121,7 @@ textarea {
    }
 a {
     background-color: transparent;
-   
     color: red;
-   
 }
 * {
     -webkit-box-sizing: border-box;
@@ -393,7 +391,16 @@ a {
 }
 .renk {
     background-color: #f6f4f6 !important;
-    width: 517px;
+    
+    width: 580px;
+    height: 151px;
+}
+.kalem {
+    margin-top: 19px;
+    /* border: 2.5px solid black; */
+    margin-right: -75px;
+    /* margin-left: -65px; */
+    
 }
 .sagkolon{
  width: 60%;
@@ -441,6 +448,9 @@ a {
     border-color: #7c7f84;
     background-color: white;
     margin-top: 19px;
+    border: 2.5px solid black;
+    margin-right: -75px;
+    margin-left: -65px;
 }
 .cardbody {
     flex: 1 1 auto;
@@ -449,4 +459,17 @@ a {
 }
 .aramabutonu{
     left:50px;
+}
+.icerik {
+    margin: 50px auto 0 auto;
+    width: 400px;
+}
+.ustKisim {
+   /* position: fixed;*/
+    position: absolute;
+    height: 47px;
+    width: 76px;
+    top: 265px;
+    margin-left: 1034px;
+}
 }
