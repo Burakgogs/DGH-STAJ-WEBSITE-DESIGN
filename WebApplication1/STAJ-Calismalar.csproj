@@ -140,6 +140,7 @@
     <Content Include="Controllers\bayrak.png" />
     <Content Include="Controllers\search.png" />
     <Content Include="Controllers\TasarlananSayfa.html" />
+    <Content Include="Controllers\yıldız.png" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
