@@ -223,8 +223,8 @@ a {
         padding: 0;
     }
 }
-#footer {/* Footer */
-    background: #007b5e;
+#footer { /* Footer */
+    background: #fcfcfc;
 }
 section {
     padding: 60px 0;
@@ -472,4 +472,8 @@ a {
     top: 265px;
     margin-left: 1034px;
 }
+
+.yarimrenk {
+   
+    width: 886px;
 }
