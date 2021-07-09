@@ -458,7 +458,7 @@ a {
 }
 .tekcard {
     height: 485px;
-    width: 277px;
+    width: 287px;
 }
 .headerrenk{
     background-color:white;
@@ -474,4 +474,6 @@ a:hover {
    
     text-decoration: none;
 }
-   
+.butonkonum {
+    margin-left: 45px;
+}
