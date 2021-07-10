@@ -134,6 +134,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Controllers\ataç.png" />
+    <Content Include="Controllers\down.png" />
     <Content Include="Controllers\facebook.png" />
     <Content Include="Controllers\HtmlPage1.html" />
     <Content Include="Controllers\kalem.png" />

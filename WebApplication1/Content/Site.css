@@ -52,8 +52,10 @@
 }
 /*Kutucukları oluştu*/
 .div2 {
-    border: 0.5px solid black;
+    border: 1px solid #ccc !important;
     background-color: white;
+    width: 577px;
+    height: 306px;
 }
 .div3 {
     border: 0.5px solid black;
@@ -409,12 +411,12 @@ a {
     height: 10px;
 }
 .progress-wrap {
-    background: #f80;
+    background-image: linear-gradient(to right, yellow, red);
     margin: 1px;
     overflow: hidden;
     position: relative;
     width: auto;
- }
+}
 .btn-outline {
     border-color: #ec2c22;
   
@@ -482,4 +484,30 @@ a:hover {
 .mvn {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+}
+.div5 {
+    width: 577px;
+    height: 44px;
+    border: 0.5px solid #b8b2b2;
+}
+.yazi {
+    margin-left: 14px;
+    margin-top: 7px;
+}
+.down {
+    margin-left: 320px;
+}
+
+.down2 {
+    margin-left: 283px;
+}
+.div6 {
+    border: 0.5px solid black;
+    background-color: white;
+    width: 285px;
+    height: 192px;
+}
+.hakkında{
+
+    margin-left:auto;
 }
