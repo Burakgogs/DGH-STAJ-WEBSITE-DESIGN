@@ -497,7 +497,6 @@ a:hover {
 .down {
     margin-left: 320px;
 }
-
 .down2 {
     margin-left: 283px;
 }
@@ -510,4 +509,8 @@ a:hover {
 .hakkında{
 
     margin-left:auto;
+}
+.dYxYEa {
+    display: flex;
+    margin-left: 450px;
 }
