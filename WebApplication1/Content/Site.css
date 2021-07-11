@@ -415,7 +415,65 @@ a {
     margin: 1px;
     overflow: hidden;
     position: relative;
-    width: auto;
+    width: 185px;
+}
+.progress-wrap1 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 96px;
+}
+
+.progress-wrap2 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 135px;
+}
+
+.progress-wrap3 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 150px;
+}
+.progress-wrap4 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 186px;
+}
+.progress-wrap5 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 147px;
+}
+.progress-wrap6 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 97px;
+}
+.progress-wrap7 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 133px;
+}
+.progress-wrap8 {
+    background-image: linear-gradient(to right, yellow, red);
+    margin: 1px;
+    overflow: hidden;
+    position: relative;
+    width: 200px;
 }
 .btn-outline {
     border-color: #ec2c22;
@@ -514,3 +572,24 @@ a:hover {
     display: flex;
     margin-left: 450px;
 }
+/* Translate */
+#goog-gt-tt {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-te-menu-value:hover {
+    text-decoration: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+
+#google_translate_element2 {
+    display: none !important;
+}
+
