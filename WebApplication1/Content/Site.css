@@ -593,3 +593,140 @@ body {
     display: none !important;
 }
 
+/* NEW CARD */
+
+Nbody{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: black;
+    min-height: 100vh;
+}
+Nsection{
+    position: relative;
+
+}
+Nsection ::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(#f00,#f0f);
+    clip-path: circle(30% at right 70% );
+}
+
+    Nsection ::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#2196f30,#e91e63);
+        clip-path: circle(20% at 10% 10% );
+    }
+    .Ncontainer{
+        z-index:1;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap:wrap;
+        margin:40px 0;
+    }
+        .Ncontainer .Ncard {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            background: rgba(255,255,255,0.05);
+            margin: 20px;
+            box-shadow: 0 15px 35px rgb(0 0 0 / 20%);
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(10px);
+        }
+    .Ncontainer .Ncard .Ncontent{
+        position:relative;
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        opacity: 0.05;
+        transition:0.5s;
+
+    }
+    .Ncontainer .Ncard:hover .Ncontent{
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+        .Ncontainer .Ncard:hover .Ncontent .imgBx {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 10px solid rgba(0,0,0,0.25);
+        }
+        .Ncontainer .Ncard .Ncontent .imgBx img{
+            position : absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+        .Ncontainer .Ncard .Ncontent .NcontentBx Nh3{
+            color:#fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight:500;
+            font-size:10px;
+            text-align: center;
+            margin: 20px 0 10px;
+            line-height:1.1em;
+
+        }
+        .Ncontainer .Ncard .Ncontent .NcontentBx h3 span {
+            font-size: 12px;
+            font-weight:300;
+            text-transform: initial;
+        }
+        .Ncontainer .Ncard .sci{
+            position:absolute;
+            bottom:50px;
+            display: flex;
+
+        }
+        .Ncontainer .Ncard .sic li{
+            list-style: none;
+            margin: 0 10px;
+            transform:translateY(40px);
+            transition:0.5s;
+            opacity: 0;
+            transition-delay: calc(0.1s * var(--i));
+        }
+
+            .Ncontainer .Ncard .sic li {
+            transform: translateY(0px);
+            opacity: 1;
+            }
+                .Ncontainer .Ncard .sic li a {
+                
+                color: #fff;
+                font-size: 24px;
+                
+                }
+.imgkonum {
+    margin-left: 41px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0,0,0,0.25);
+}
