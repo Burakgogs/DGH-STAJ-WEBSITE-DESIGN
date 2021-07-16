@@ -252,7 +252,11 @@
                     <hr class="mtl mbxs">
                     <div>
                         <div class="container justify-content-center mt-5 border-left border-right">
-                            <div class="d-flex justify-content-center pt-3 pb-2"> <input type="text" name="text" placeholder="Yorum Yap!" class="form-control addtxt"> </div>
+                            <div class="d-flex justify-content-center pt-3 pb-2"> <input type="text" id="myText" name="text" placeholder="Yorumunuzu giriniz." class="form-control addtxt"> </div>
+                            <div>
+                                <button  class="btn btn-outline-danger btn-rounded" onclick="myFunction()">Yorum Yap</button>
+                                <p id="demo"></p>
+                            </div>
                             <div class="d-flex justify-content-center py-2">
                                 <div class="second py-2 px-2">
                                     <span class="text1">
@@ -665,7 +669,10 @@
             alert("KAMPANYA BAŞLATILDI.!")
         }
 
-
+        function myFunction() {
+            var x = document.getElementById("myText").value;
+            document.getElementById("demo").innerHTML = x;
+        }
     </script>
 
 
