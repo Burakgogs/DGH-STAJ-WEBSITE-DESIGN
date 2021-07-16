@@ -118,7 +118,8 @@
                                     <h5 class="card-title">Başardık! Yeğenim…</h5>
                                 </div>
                                 <div class="card-body">
-                                    <a href="#" class="btn btn-primary butonkonum">Facebook'ta paylaş</a>
+                                    <a href="#"</a>
+                                    <button class="btn btn-primary butonkonum" id="UyariButonu"> Facebook'ta Paylaş</button>
                                     <div class="">
                                         <img src="  facebook.png" width="15" height="15">
                                         <a href="" target="" data-pass-thru="" class="link-subtle">Facebook mesajı gönder</a>
@@ -519,8 +520,8 @@
                     </ul>
                 </div>
             </div>
-
-            <!------Yeni card stil-->
+            <!---
+    <!------Yeni card stil
             <hr class="sc-fzoWqW eRVqQh">
             <section>
                 <div class="Ncontainer">
@@ -531,7 +532,7 @@
 
                             </div>
                             <h3 class="Nh3">Başardık Yeğenim...<br></h3>
-                           
+
                             <a href="#" class="btn btn-primary ">Facebook'ta paylaş</a>
                             <div class="">
                                 <img src="  facebook.png" width="15" height="15">
@@ -551,10 +552,10 @@
                             </div>
 
                         </div>
-                  
-                </div>
-            </section>
 
+                    </div>
+            </section>
+            -->
 
 
             <!-- Copyrights -->
@@ -654,5 +655,17 @@
             if (GTranslateGetCurrentLang() != null) jQuery(document).ready(function () { jQuery('div.switcher div.selected a').html(jQuery('div.switcher div.option').find('img[alt="' + GTranslateGetCurrentLang() + '"]').parent().html()); });
         </script>
   
+    
+    <script>
+        document.getElementById("UyariButonu").onclick = function () {
+            alert("Facebook'ta Paylaşıldı.!")
+        }
+
+
+
+
+    </script>
+
+
 </body>
 </html>
